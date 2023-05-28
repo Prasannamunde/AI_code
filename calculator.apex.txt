@@ -1,0 +1,35 @@
+public class Calculator{
+
+   
+  public double number1 {get;set;}
+  public double number2 {get;set;}
+  public double result {get;set;}
+  
+
+       
+    public void addition(){
+         result = number1+number2;
+        
+    }
+     public void subtraction(){
+         result = number1-number2;
+        
+    }
+     public void division(){
+         result = number1/number2;
+        
+    }
+    public void multiplication(){
+         result = number1*number2;
+      
+        
+    }
+    public void clear(){
+         number1=0;
+         number2=0;
+       result=0;
+  
+        
+    }
+
+}
