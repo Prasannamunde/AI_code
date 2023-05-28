@@ -1,0 +1,8 @@
+sudo apt update
+sudo apt install cpu-checker
+kvm-ok
+sudo apt install libvirt-daemon qemu-system virt-manager
+
+sudo usermod -aG libvirt $USER
+
+sudo systemctl enable libvirtd.service --now
